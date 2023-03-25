@@ -53,7 +53,9 @@ const run = function(){
 
 
 
-    document.body.innerHTML = shuffledPassword;
+    const passwordElement = document.createElement("div");
+    passwordElement.innerText = shuffledPassword;
+    document.body.appendChild(passwordElement);
 }
 
 run();
