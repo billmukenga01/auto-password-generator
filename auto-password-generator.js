@@ -53,7 +53,7 @@ const run = function(){
 
 
 
-    document.body.write(shuffledPassword);
+    document.body.innerHTML = shuffledPassword;
 }
 
 run();
