@@ -53,7 +53,7 @@ const run = function(){
 
 
 
-    console.log(shuffledPassword);
+    document.body.write(shuffledPassword);
 }
 
 run();
